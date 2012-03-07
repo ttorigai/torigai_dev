@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<section class="content">
+	<p>torigai.com development: various development flights of fancy.  copy writing not included.</p>
+</section>
+
+<ul class="entries">
+	{% for post in site.posts %}
+	<li>
+		<a href="{{ post.url }}"><h3>{{ post.title }} - {{ post.date | date: "%d %B %Y" }}</h3></a>
+	</li>
+	{% endfor %}
+</ul>
+

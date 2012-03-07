@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>{% if page.title %} {{ page.title }} | {% endif %} torigai development</title>
+	<meta name="description" content="torigai.com torigai tetsuo development programming">
+	<meta name="author" content="tetsuo torigai">
+	<link rel="stylesheet" href="/css/style.css" />
+</head>
+
+<body>
+
+	<div id="main">
+		<header>
+			<h1>torigai dev</h1>
+		</header>
+		
+		<nav role="navigation">
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/about">About</a></li>
+				<li><a href="/contact">Contact</a></li>
+			</ul>
+		</nav>
+
+		<section role="banner">
+			<img src="/img/titleimg.png" />
+		</section>
+
+		{{ content }}
+
+		<footer>
+			<p>&copy; torigai.com 2012 | all rights reserved.</p>
+		</footer>
+	</div>
+</body>
+</html>
+
+

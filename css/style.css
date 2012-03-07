@@ -1,0 +1,74 @@
+@font-face { font-family: Abril Fatface; src: url(http://fonts.googleapis.com/css?family=Abril+Fatface); }
+
+body {
+  font: 16px/1.5 verdana, helvetica-neue, helvetica, arial, san-serif;
+  background: #020202;
+  color: #ececec;
+  padding: 0;
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: #ccc;
+  text-decoration: none;
+}
+a:hover {
+  color: #ececec;
+  text-decoration: underline;
+}
+#main {
+  width: 960px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.4);
+}
+header {
+  padding: 0 10px;
+  overflow: hidden;
+  font-family: Abril Fatface;
+  font-size: 2em;
+}
+h1 {
+  margin: 0;
+}
+nav ul, ul.entries {
+  list-style-type: none;
+}
+nav li a {
+  float: left;
+  margin: 5px;
+}
+.content {
+  padding: 20px;
+  margin: 5px;
+  background: rgba(244, 244, 244, 0.3);
+}
+.postheader {
+  padding: 20px;
+  margin: 5px;
+  background: rgba(244, 244, 244, 0.3);
+}
+ul.entries li {
+  padding: 0px 20px;
+  margin: 5px;
+  background: rgba(244, 244, 244, 0.3);
+}
+ 
+ul.entries li h3 {
+  font-family: Abril Fatface;
+  font-size: 2em;
+  padding: 10px 0px;
+}
+ul.entries a {
+  color: #ececec;
+}
+ul.entries a:hover {
+  color: #fff;
+}
+ 
+footer {
+  font-size: 0.65em;
+  text-align: center;
+}
